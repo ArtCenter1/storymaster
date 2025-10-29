@@ -2,9 +2,6 @@ import { LLMProviderManager, LLMOptions } from '../providers/llm-provider';
 import * as fs from 'fs';
 import * as path from 'path';
 
-declare const fs: any;
-declare const path: any;
-
 export interface BMADAgent {
   id: string;
   name: string;

@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-declare const React: any;
-
 interface Project {
   id: string;
   title: string;
